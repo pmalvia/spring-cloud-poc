@@ -26,8 +26,8 @@ hs_err_pid*
 /mvnw
 /.mvn/wrapper/maven-wrapper.properties
 /HELP.md
-# Default ignored files
+# Default ignored files folder
 /workspace.xml
-/.idea/*
-target
 
+/.mvn/
+/.idea/

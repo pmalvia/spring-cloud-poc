@@ -2,6 +2,7 @@ package com.prafull.poc.springcloud.service.message.service;
 
 import com.prafull.poc.springcloud.service.message.model.Message;
 import com.prafull.poc.springcloud.service.message.repository.MessageRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -10,9 +11,10 @@ import java.util.Optional;
 
 @Service
 public class MessageService {
+    @Autowired
     private MessageRepository messageRepository;
 
-    public Optional<Message> getMessageById(Long id) {
+    public Optional<Message> getMessageById(Integer id) {
         return messageRepository.findById(id);
     }
 

@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>Message-Service</module>
+        <module>Netflix-Client-Service</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

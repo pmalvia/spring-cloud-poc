@@ -17,7 +17,7 @@ public class MessageController {
 
     @GetMapping(value = "/{id}", produces = {"application/json"})
     public ResponseEntity<Message> getMessageById(@PathVariable Integer id) {
-        return new ResponseEntity(messageService.getMessageById(new Long(id)), HttpStatus.OK);
+        return new ResponseEntity(messageService.getMessageById(id), HttpStatus.OK);
     }
 
     @GetMapping(value = "/{username}", produces = {"application/json"})

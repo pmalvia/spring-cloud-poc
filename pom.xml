@@ -6,6 +6,7 @@
     <modules>
         <module>Message-Service</module>
         <module>Netflix-Client-Service</module>
+        <module>Netflix-Server-Service</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
